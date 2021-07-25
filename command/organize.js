@@ -15,9 +15,9 @@ let types = {
         for(let i in types){
             for(let j in types[i]){
                 if(types[i][j] === ext){
-                    return i;
+                        return i;
+                    }
                 }
-            }
         }
         return "";
     }
